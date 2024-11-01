@@ -1,0 +1,10 @@
+﻿namespace PurpleBuzz.Models.Pricing
+{
+    public class PricingCardVM
+    {
+        public string Title { get; set; }
+        public string Price { get; set; }
+        public List<string> Features { get; set; } = new List<string>();
+
+    }
+}
